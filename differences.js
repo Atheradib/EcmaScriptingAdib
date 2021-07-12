@@ -14,3 +14,10 @@ function GetDataLet(){
     
 }
 GetDataLet();
+function GetDataConst(){
+    const pi=3.14;
+    pi=7.45;
+    console.log(pi);
+
+}
+GetDataConst();
