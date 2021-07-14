@@ -10,13 +10,13 @@ const AreaOfCircle = (r) => (22/7)*r*r;
 const AreaOfHalfCircle = (r) => (22/7)*r*r*(1/2);
 
 
-//const r1=7
-//const r2=5
-//const x=12
-//const h=14
-//const b=27
+const O=7
+const P=5
+const Q=12
+const S=14
+const T=27
 
-console.log(`Area of Diagram 4 is ${AreaOfRectangle(14,27-7)+ AreaOfTriangle(27-7,12)+ AreaOfHalfCircle(7)- AreaOfCircle(5)}`);
+console.log(`Area of Diagram 4 is ${AreaOfRectangle(S,T-O)+ AreaOfTriangle(T-O,Q)+ AreaOfHalfCircle(O)- AreaOfCircle(P)}`);
 
 
 console.log(`Area of Rectangle is ${AreaOfRectangle(20,30)} sq.unit`);
