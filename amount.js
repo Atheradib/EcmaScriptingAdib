@@ -6,3 +6,4 @@ console.log(`Amount need to fill fuel is Rs. ${MillageCost(320,51,110.08)}`);
 console.log(Math.floor(66.48));
 
 
+
