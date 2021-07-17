@@ -8,3 +8,5 @@ const FencingForAny = (edges,NumberOfWire,rate) => {
 
 
 console.log(`cost of fencing ${FencingForAny([10,15,45,48,14],5,10)}/-`);
+
+
