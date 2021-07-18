@@ -1,7 +1,7 @@
 const FencingForAny = (edges,NumberOfWire,rate) => {
     let sum = 0
-    array.forEach((element) => {
-        sum = sum + element; }
+    edges.forEach((element) => {
+        sum = sum + element; })
 
         return sum*NumberOfWire*rate;
     };
