@@ -7,5 +7,10 @@ const Palendrome = (str) => {
   }
   return true;
 };
-console.log(Palendrome("madams"));
+console.log(Palendrome("madsm"));
 console.log(Palendrome("98572127589"));
+console.log(Palendrome("985721275895"));
+console.log(Palendrome("sarasa"));
+console.log(Palendrome("abba"));
+console.log(Palendrome("abbu"));
+console.log(Palendrome("talat"));
