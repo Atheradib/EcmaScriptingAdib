@@ -17,4 +17,4 @@
 // console.log(factorialrecursive(5));
 const factorial = (n) => (n < 2 ? 1 : factorial(n - 1));
 
-console.log(factorial(3));
+console.log(factorial(4));
