@@ -1,11 +1,10 @@
 const FindPercentage = (numbers) => {
-  let totalOfNumbers = 0;
+  let totalNumbers = 0;
   numbers.forEach((element) => {
-    totalOfNumbers = totalOfNumbers + element;
+    totalNumbers = totalNumbers + element;
   });
-  const average = totalOfNumbers / numbers.length;
-  return average;
+  percentage = totalNumbers / numbers.length;
+  return percentage;
 };
-console.log(FindPercentage([45, 43, 67, 89, 43]));
-console.log(FindPercentage([45, 43, 67, 89, 43, 78]));
-console.log(FindPercentage([45, 43, 67, 89, 43, 75, 67]));
+
+console.log(FindPercentage([45, 78, 89, 46, 80, 79]));

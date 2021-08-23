@@ -12,7 +12,7 @@ const greateststrINString = (str) => {
 };
 
 console.log(
-  greateststrInString([
+  greateststrINString([
     "I am a boy.I live in Nanded,I am super excited to become a developer",
   ])
 );
