@@ -7,10 +7,17 @@
 //     return "prime number";
 //   };
 const findPrime = (num) => {
-  const boundry = Math.floor(Math.sqrt(num));
-  for (i = 2; i <= boundry; i++) {
+  for (let i = 2; i < num / 2; i++) {
     if (num % i === 0) {
-      return "not prime number";
+      return "not prime";
+    }
+  }
+  return "prime";
+};
+const findPrime = (num) => {
+  for (let i = 2; i < num / 2; i++) {
+    if (num % i === 0) {
+      return "not Prime";
     }
   }
   return "prime number";

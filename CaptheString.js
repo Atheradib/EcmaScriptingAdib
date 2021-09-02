@@ -5,5 +5,6 @@ items.forEach((item) => {
   if (typeof item === "string") {
     arrcap.push(item.toUpperCase());
   }
+  return arrcap;
 });
 console.log(arrcap);

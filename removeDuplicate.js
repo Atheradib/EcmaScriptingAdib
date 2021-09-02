@@ -6,7 +6,7 @@
 
 const RemoveDuplicate = (str) => {
   const arrStr = str.split(" ");
-  uniqeArr = [...new Set(arrStr)];
-  return uniqeArr.join(" ");
+  uniqArr = [...new Set(arrStr)];
+  return uniqArr.join(" ");
 };
 console.log(RemoveDuplicate("I am good. I want to go. I am learning"));

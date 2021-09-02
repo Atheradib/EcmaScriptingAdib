@@ -13,8 +13,13 @@
 //     return num * factorialrecursive(num - 1);
 //   }
 // };
+// console.log(factorialrecursive(4));
 
-// console.log(factorialrecursive(5));
-const factorial = (n) => (n < 2 ? 1 : factorial(n - 1));
+// const factorialrecursive = (num) =>
+//   num == 0 ? 1 : num * factorialrecursive(num - 1);
 
-console.log(factorial(4));
+// console.log(factorialrecursive(4));
+
+const factorial = (n) => (n > 2 ? 1 : factorial(n - 1));
+
+console.log(factorial(5));

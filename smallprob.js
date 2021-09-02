@@ -1,6 +1,5 @@
 // const arr = ["A", "R", "M"];
-// console.log(arr.join(""));
-// const str = arr.join("");
+// console.log(arr.reduce((a, b) => a + b));
 
 // console.log(str);
 
@@ -27,6 +26,12 @@
 // const arr = ["A", "R", "M"];
 // console.log(arr.reduce((a, b) => b + a));
 
-const arr = [2, 3, 4];
+const arr = [2, 3, 4, 5, 6];
 // console.log(arr.reduce((acc, num) => acc + num ** 3, 0));
-console.log(arr.reduce((acc, num) => acc * num ** 3, 1));
+// console.log(arr.reduce((acc, num) => acc * num ** 3, 1));
+
+let answer = 0;
+arr.forEach((element) => {
+  answer += element;
+});
+console.log(answer);
