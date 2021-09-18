@@ -1,14 +1,22 @@
-const FindSortedUniqueArray = (objArr) => {
+// const FindSortedUniqueArray = (objArr) => {
+//   let mergedArr = [];
+//   objArr.data.forEach((element) => {
+//     mergedArr = [...mergedArr, ...element];
+//   });
+//   const uniqueArr = [...new Set(mergedArr)].sort((a, b) => a - b);
+//   return uniqueArr;
+// };
+
+const findinguniquesortedarray = (objArr) => {
   let mergedArr = [];
   objArr.data.forEach((element) => {
     mergedArr = [...mergedArr, ...element];
   });
-  const uniqueArr = [...new Set(mergedArr)].sort((a, b) => a - b);
-  return uniqueArr;
+  const uniqArr = [...new Set(mergedArr)].sort((a, b) => a - b);
+  return uniqArr;
 };
-
 console.log(
-  FindSortedUniqueArray({
+  findinguniquesortedarray({
     data: [
       [24, 75, 12, 14, 1],
       [35, 24, 13, 2],

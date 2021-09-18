@@ -1,9 +1,10 @@
 // const findPercentage = (numbers) => {
 //   return numbers.reduce((acc, curr) => acc + curr) / numbers.length;
 // };
-// const findPercentage = (numbers) =>
-//   numbers.reduce((acc, curr) => acc + curr) / numbers.length;
-// console.log(findPercentage([23, 34, 45, 56, 47, 88, 99]));
+const findPercentage = (numbers) => {
+  return numbers.reduce((acc, curr) => acc + curr) / numbers.length;
+};
+console.log(findPercentage([45, 78, 45, 78, , 89, 52]));
 
 const arr = ["a", "b", "c", "d", "e"];
 

@@ -10,8 +10,7 @@ function GetDataLet(){
     if(true){
         let name="Ather";
         console.log(name);
-    }
-    
+    } 
 }
 GetDataLet();
 function GetDataConst(){
