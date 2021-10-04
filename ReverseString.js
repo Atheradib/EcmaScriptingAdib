@@ -35,7 +35,7 @@
 // console.log(isVowel("o"));
 // console.log(isVowel("s"));
 
-const vowels = ["a", "e", "i", "o", "u", "y"];
+const vowels = ["a", "e", "i", "o", "u"];
 
 function isVowel(word) {
   let result = false;
@@ -47,4 +47,4 @@ function isVowel(word) {
   }
   return result;
 }
-console.log(isVowel("g"));
+console.log(isVowel("o"));

@@ -17,3 +17,7 @@ console.log(
     "I am a boy.I live in Nanded,I am super excited to become a developer"
   )
 );
+
+// str = "I am a boy.I live in Nanded,I am super excited to become a developer";
+// var i = str.split(" ");
+// console.log(i);

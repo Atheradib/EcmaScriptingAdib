@@ -19,3 +19,16 @@
 //   return newArr;
 // };
 // console.log(arr([1, 0, 1, 0, 1, 0]));
+
+const captheString = (str) => {
+  const newArr = [];
+  str.forEach((item) => {
+    if (typeof item === "string") {
+      newArr.push(item.toUpperCase());
+    }
+  });
+  return newArr;
+};
+console.log(captheString(["ather", "imran", "adib", undefined, null, 1]));
+
+
